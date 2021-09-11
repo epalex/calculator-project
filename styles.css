@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.screen {
+  grid-area: screen;
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: right;
+}
+
+.clear {
+  grid-area: clear;
+  background-color: darkgrey;
+  width: 100%;
+}
+
+.backspace {
+  grid-area: backspace;
+  background-color: darkgrey;
+  width: 100%;
+}
+
+.division {
+  grid-area: division;
+  background-color: orangered;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.seven {
+  grid-area: seven;
+  background-color: darkgrey;
+  width: 100%;
+}
+
+.eight {
+  grid-area: eight;
+  background-color: darkgrey;
+  width: 100%;
+}
+
+.nine {
+  grid-area: nine;
+  background-color: darkgrey;
+  width: 100%;
+}
+
+.times {
+  grid-area: times;
+  background-color: orangered;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.four {
+  grid-area: four;
+  background-color: darkgrey;
+  width: 100%;
+}
+
+.five {
+  grid-area: five;
+  background-color: darkgrey;
+  width: 100%;
+}
+
+.six {
+  grid-area: six;
+  background-color: darkgrey;
+  width: 100%;
+}
+
+.minus {
+  grid-area: minus;
+  background-color: orangered;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.one {
+  grid-area: one;
+  background-color: darkgrey;
+  width: 100%;
+}
+
+.two {
+  grid-area: two;
+  background-color: darkgrey;
+  width: 100%;
+}
+
+.three {
+  grid-area: three;
+  background-color: darkgrey;
+  width: 100%;
+}
+
+.plus {
+  grid-area: plus;
+  background-color: orangered;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.zero {
+  grid-area: zero;
+  background-color: darkgrey;
+  width: 100%;
+}
+
+.equals {
+  grid-area: equals;
+  background-color: orangered;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  margin: 120px auto 60px auto;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 60px 60px 60px 60px 60px 60px;
+  grid-template-areas:
+    "screen screen screen screen"
+    "clear clear backspace division"
+    "seven eight nine times"
+    "four five six minus"
+    "one two three plus"
+    "zero zero zero equals";
+  justify-items: center;
+  justify-content: center;
+}
+
+span {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+footer a {
+  text-decoration: none;
+  color: tomato;
+}
+
+.paminos {
+  color: goldenrod;
+  font-weight: 600;
+}
+
+footer {
+  font-size: 13px;
+  text-align: center;
+  font-weight: 500;
+  color: darkgrey;
+}
