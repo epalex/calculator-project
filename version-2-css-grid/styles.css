@@ -28,7 +28,6 @@ button {
   background-color: #d8d9db;
   font-size: 32px;
   height: 60px;
-  flex: 1 25%;
 }
 
 button:hover {
@@ -53,20 +52,6 @@ button:active {
 }
 
 .calc-keys {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.clear {
-  flex: 1 50%;
-}
-
-.zero {
-  flex: 1 75%;
-}
-
-/* 
-.calc-keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -80,7 +65,6 @@ button:active {
   grid-column-start: 1;
   grid-column-end: 4;
 }
-*/
 
 footer a {
   text-decoration: none;
